@@ -1,0 +1,51 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 130%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    margin-top: 1%;
+    margin-left: 30%;
+
+}
+
+label {
+    float: left;
+    position: relative;
+    width: 150px;
+    top: 9px;
+}
+
+input {
+    width: 300px;
+    font-size: 20px;
+    padding: 5px 5px 12px;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-bottom: 1%;
+}
+
+#button {
+    margin-top: 1%;
+    width: 150px;
+    font-size: 15px;
+    margin-left: 15em;
+}
+
+#error {
+    color: red;
+    margin-left: 43%;
+
+}
+
+#success {
+    color: green;
+    margin-left: 43%;
+
+}
