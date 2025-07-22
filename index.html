@@ -19,7 +19,7 @@
         </div>
         <div>
             <label for="Phone">Phone no.</label>
-            <input type="text" id="Phone" oninput="this.value = this.value.replace(/[^0-9]/g, '')" />
+            <input type="text" id="Phone" maxlength="10" minlength="10" oninput="this.value = this.value.replace(/[^0-9]/g, '')" />
         </div>
         <div>
             <label for="Password">Password</label>
